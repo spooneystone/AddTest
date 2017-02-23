@@ -10,9 +10,12 @@ namespace Testing
     {
         static void Main(string[] args)
         {
-            Add add = new Add(10,5);
+            Add add = new Add(10, 5);
 
-          Console.WriteLine(add.Result());
+            Subtract sub = new Subtract(4, 2);
+
+            Console.WriteLine(add.Result());
+            Console.WriteLine(sub.Result());
             Console.ReadKey();
         }
     }

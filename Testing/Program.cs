@@ -16,9 +16,12 @@ namespace Testing
 
             Multiply multi = new Multiply(5,5);
 
+            Squared Squ = new Squared(15);
+
             Console.WriteLine(add.Result());
             Console.WriteLine(sub.Result());
             Console.WriteLine(multi.Result());
+            Console.WriteLine(Squ.Result());
             Console.ReadKey();
         }
     }

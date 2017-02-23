@@ -14,8 +14,11 @@ namespace Testing
 
             Subtract sub = new Subtract(4, 2);
 
+            Multiply multi = new Multiply(5,5);
+
             Console.WriteLine(add.Result());
             Console.WriteLine(sub.Result());
+            Console.WriteLine(multi.Result());
             Console.ReadKey();
         }
     }
